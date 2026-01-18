@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "grok-agent-mcp": {
+      "command": "node",
+      "args": ["/Users/nexteleven/cursor-mcp-integration/server/local-mcp-server.js"],
+      "env": {
+        "VERCEL_APP_URL": "https://grokcode-30wnt049r-sean-mcdonnells-projects-4fbf31ab.vercel.app",
+        "API_KEY": "${env:API_KEY}"
+      }
+    }
+  }
+}

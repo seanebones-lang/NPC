@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "grok-agent-mcp-remote": {
+      "url": "https://grokcode-30wnt049r-sean-mcdonnells-projects-4fbf31ab.vercel.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:API_KEY}"
+      }
+    }
+  }
+}
